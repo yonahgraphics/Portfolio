@@ -24,7 +24,7 @@ class Portfolio extends StatelessWidget {
           ),
          PortfolioTabBar(),
           Padding(
-            padding: const EdgeInsets.only(top: 30.0, bottom: 30.0),
+            padding: const EdgeInsets.only(bottom: 30.0),
             child: Text("And many more to come!",textAlign: TextAlign.center, style: GoogleFonts.montserrat(fontSize: 20, color: Colors.white),),
           )
         ],

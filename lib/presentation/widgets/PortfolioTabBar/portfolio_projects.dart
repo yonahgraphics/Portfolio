@@ -1,14 +1,15 @@
-class ProjectImage{
- final String projectImagePath;
- final String projectDescription;
- ProjectImage({required this.projectImagePath, required this.projectDescription});
+class ProjectDetails{
+  final String projectTitle;
+  final String projectImagePath;
+  final String projectDescription;
+ ProjectDetails({required this.projectTitle, required this.projectImagePath, required this.projectDescription});
 }
 
-List<ProjectImage> images = [
-  ProjectImage(projectImagePath: "one.png",   projectDescription: "Cool project1"),
-  ProjectImage(projectImagePath: "two.png",   projectDescription: "Cool project2"),
-  ProjectImage(projectImagePath: "three.png", projectDescription: "Cool project3"),
-  ProjectImage(projectImagePath: "four.png",  projectDescription: "Cool project4"),
-  ProjectImage(projectImagePath: "five.png",  projectDescription: "Cool project5"),
-  ProjectImage(projectImagePath: "six.png",   projectDescription: "Cool project6")
+List<ProjectDetails> images = [
+  ProjectDetails(projectImagePath: "one.png", projectTitle: "Project Athena1",  projectDescription: "Cool project1"),
+  ProjectDetails(projectImagePath: "two.png", projectTitle: "Project Athena2",  projectDescription: "Cool project2"),
+  ProjectDetails(projectImagePath: "three.png", projectTitle: "Project Athena3", projectDescription: "Cool project3"),
+  ProjectDetails(projectImagePath: "four.png", projectTitle: "Project Athena4", projectDescription: "Cool project4"),
+  ProjectDetails(projectImagePath: "five.png", projectTitle: "Project Athena5", projectDescription: "Cool project5"),
+  ProjectDetails(projectImagePath: "six.png", projectTitle: "Project Athena6",  projectDescription: "Cool project6")
 ];

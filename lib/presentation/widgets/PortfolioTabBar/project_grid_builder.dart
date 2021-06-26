@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:portforlio/presentation/pages/home/singleProject.dart';
 import 'package:portforlio/presentation/widgets/PortfolioTabBar/portfolio_projects.dart';
 
 import 'HoverImage.dart';
@@ -23,7 +24,14 @@ class _ProjectGridBuilderState extends State<ProjectGridBuilder> {
         childAspectRatio: 1.6,
       ),
       itemBuilder: (BuildContext context, int index) {
-        return HoverImage(imageUrl: images[index].projectImagePath,);
+        return GestureDetector(
+          onTap: (){
+            Navigator.push(context, MaterialPageRoute(
+                builder: (context)=>SingleProject(singleProjectDetails: images[index], projectIndex: index,)));
+          },
+            child: Hero(
+              tag: "image$index",
+                child: HoverImage(imageUrl: images[index].projectImagePath,)));
       },
     );
   }
