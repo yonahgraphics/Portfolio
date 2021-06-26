@@ -32,7 +32,8 @@ class HomeView extends StatelessWidget {
                 children: [
                   AboutMe(),
                   SizedBox(height: 25,),
-                  Skills()],
+                  Skills()
+                ],
               ),
             ),
             Portfolio(),
