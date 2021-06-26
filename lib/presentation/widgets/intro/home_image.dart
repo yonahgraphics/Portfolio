@@ -9,7 +9,7 @@ class HomeImage extends StatelessWidget {
     return Container(
 
       child: Image.asset(homeImage,
-        height: MediaQuery.of(context).size.height*0.69,
+        height: MediaQuery.of(context).size.height*0.82,
         width: MediaQuery.of(context).size.width*0.35,
         fit: BoxFit.contain,
       ),

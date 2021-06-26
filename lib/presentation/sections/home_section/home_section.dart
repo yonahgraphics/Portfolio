@@ -32,9 +32,13 @@ class HomeSection extends StatelessWidget {
                   Intro(name: 'Tomasz Gajda',
                     speciality: 'Front-end Developer / UI Designer',),
                   SizedBox(width: 200,),
-                  Padding(
-                    padding: const EdgeInsets.only(top: 22.0),
-                    child: HomeImage(homeImage: "bg1.png"),
+                  Row(
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.only(top: 22.0),
+                        child: HomeImage(homeImage: "bg1.png"),
+                      ),
+                    ],
                   ),
                 ],
               ),
