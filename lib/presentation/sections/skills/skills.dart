@@ -18,7 +18,7 @@ class Skills extends StatelessWidget {
 
           //The skills start here
           Container(
-            padding: EdgeInsets.symmetric(horizontal: 100),
+            padding: EdgeInsets.symmetric(horizontal: 15),
             child: Column(
               children: [
                 //USING NOW
