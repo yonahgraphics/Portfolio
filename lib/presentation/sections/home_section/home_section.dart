@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:portforlio/presentation/widgets/centered_view/centered_view.dart';
 import 'package:portforlio/presentation/widgets/intro/home_image.dart';
 import 'package:portforlio/presentation/widgets/intro/intro.dart';
-import 'package:portforlio/presentation/widgets/navigation_bar/navigation_bar.dart';
-
 class HomeSection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -25,7 +23,7 @@ class HomeSection extends StatelessWidget {
         child: CenteredView(
           child: Column(
             children: [
-              NavigationBar(),
+            // NavigationBar(),
               Row(
                 mainAxisSize: MainAxisSize.min,
                 mainAxisAlignment: MainAxisAlignment.start,
