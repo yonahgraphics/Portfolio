@@ -31,7 +31,6 @@ class HomeView extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   AboutMe(),
-                  SizedBox(height: 25,),
                   Skills()
                 ],
               ),
